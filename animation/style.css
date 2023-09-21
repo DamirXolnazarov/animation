@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span{
+    font-family: arial;
+    font-size: 50px;
+    transition-duration: .3s;
+}
+
+.block{
+    margin: 0 auto ;
+    margin-top: 200px;
+    overflow: hidden;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+}
+.block2{
+    margin: 0 auto ;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+
+.opacticy{
+    opacity: 0;
+}
+
+.activeSpan{
+    transform: translateY(-100%);
+}
+.activeSpan2{
+    color: black;
+    opacity: 1 !important;
+    transform: translateY(-100%);
+}
